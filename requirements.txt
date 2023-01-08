@@ -7,7 +7,7 @@ blinker==1.4
 Brlapi==0.8.3
 certifi==2020.6.20
 chardet==4.0.0
--e git+ssh://git@github.com/DimKapoulas/chat-test.git@504c458fabfaeaf3d40b18c9dd67231f5ee79fc8#egg=chat&subdirectory=src
+-e git+ssh://git@github.com/DimKapoulas/chat-test.git@20926ef231c6d279eea1df619c367b7db7afbc73#egg=chat&subdirectory=src
 click==8.0.3
 colorama==0.4.4
 command-not-found==0.3
@@ -92,8 +92,6 @@ six==1.16.0
 smmap==5.0.0
 snowballstemmer==2.2.0
 systemd-python==234
-# Editable install with no version control (todo==0.0.0)
--e /home/kajimo/Desktop/projects/todo/src
 toml==0.10.2
 tomlkit==0.11.6
 typing_extensions==4.4.0
