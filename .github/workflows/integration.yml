@@ -22,7 +22,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          puthon -m pip install -e src/
+          python -m pip install -e src/
 
       - name: Run developement tests
         run: |
