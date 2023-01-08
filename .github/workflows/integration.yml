@@ -4,6 +4,9 @@ on:
   push: 
     branches: [ DimKapoulas-patch-1 ]
 
+concurrency:
+  group: ci-tests-${{ github.ref }}-1
+  cancel-in-progress: true
 
 jobs:
   build:

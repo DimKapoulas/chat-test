@@ -1,9 +1,7 @@
-from multiprocessing.managers import SyncManager, ListProxy
 import unittest
 import unittest.mock
-from unittest.mock import patch
-from chat.client import Connection
 
+from chat.client import Connection
 
 class TestConnection(unittest.TestCase):
     def test_broadcast(self):
