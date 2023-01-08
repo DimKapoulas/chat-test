@@ -1,0 +1,19 @@
+language: python
+os: linux
+dist: ubuntu
+
+python:
+  - 3.8
+  - 3.9
+  - 3.10
+  - 3.11
+
+install:
+  - "sudo apt install pip -y"
+  - "python -m pip install -e src"
+  
+script:
+  - "python -m unittest discover -k tests -v"
+
+after_success:
+  - "python -m unittest discover -k benchmarks -v"
